@@ -4,11 +4,8 @@ public class App {
         Double valor1 = 10.2;
         Double valor2 = 20.4;
 
-
         System.out.println("Valor 1: " + valor1);
-
         System.out.println("Valor 2: " + valor2 + "\n");
-
 
         System.out.println("Operação:");
         System.out.println("Soma: " + Calculo(valor1, valor2, "Soma"));
@@ -16,11 +13,7 @@ public class App {
         System.out.println("Divisão: " + Calculo(valor1, valor2, "Divisão"));
         System.out.println("Multiplicação: " + Calculo(valor1, valor2, "Multiplicação"));
 
-        
-
         Calculo(valor1, valor2, "Soma");
-        
-
     }
 
     public static Double Calculo(Double valor1, double valor2, String operacao){
