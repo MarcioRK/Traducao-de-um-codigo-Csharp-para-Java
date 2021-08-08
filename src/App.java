@@ -1,8 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
-        Double valor1 = 10.2;
-        Double valor2 = 20.4;
+        Double valor1 = 10.1;
+        Double valor2 = 20.2;
 
         System.out.println("Valor 1: " + valor1);
         System.out.println("Valor 2: " + valor2 + "\n");
@@ -77,7 +77,7 @@ public class App {
 
     //Método de Multiplicação
     public static Double Multiplicacao(Double valor1, double valor2){
-        
+
         Double resposta = 0.0;
 
         resposta = valor1 * valor2;
