@@ -16,10 +16,11 @@ public class App {
         Calculo(valor1, valor2, "Soma");
     }
 
+    //Método que define a operação
     public static Double Calculo(Double valor1, double valor2, String operacao){
+
         Double resposta = 0.0;
         
-
         switch (operacao){
             case "Soma":
                 resposta = Soma(valor1, valor2);
@@ -44,7 +45,9 @@ public class App {
          return resposta;
     }
 
+    //Método de soma
     public static Double Soma(Double valor1, double valor2){
+
         Double resposta = 0.0;
 
         resposta = valor1 + valor2;
@@ -52,7 +55,9 @@ public class App {
         return resposta;
     }
 
+    //Método de subtração
     public static Double Subtracao(Double valor1, double valor2){
+
         Double resposta = 0.0;
 
         resposta = valor1 - valor2;
@@ -60,7 +65,9 @@ public class App {
         return resposta;
     }
 
+    //Método de divisão
     public static Double Divisao(Double valor1, double valor2){
+
         Double resposta = 0.0;
 
         resposta = valor1 / valor2;
@@ -68,7 +75,9 @@ public class App {
         return resposta;
     }
 
+    //Método de Multiplicação
     public static Double Multiplicacao(Double valor1, double valor2){
+        
         Double resposta = 0.0;
 
         resposta = valor1 * valor2;
