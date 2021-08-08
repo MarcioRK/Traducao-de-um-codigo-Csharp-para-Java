@@ -1,6 +1,6 @@
 ## Ambiente
 
-Escolhi fazer uso do Visual Studio Code
+Escolhi o Visual Studio Code como ambiente de desenvolvimento.
 
 ## Experiência
 
